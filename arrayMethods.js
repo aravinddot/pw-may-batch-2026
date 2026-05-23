@@ -122,7 +122,7 @@
 
 //const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
-const foundIndex = arr.findIndex(val => val > 30)
+//const foundIndex = arr.findIndex(val => val > 30)
 
 // console.log(foundIndex);
 
@@ -138,20 +138,49 @@ const foundIndex = arr.findIndex(val => val > 30)
 // console.log(automationTools.at(2));
 
 
-const num = [10, 20, 30, 40, 50]
+// const num = [10, 20, 30, 40, 50]
 
 // const result = num.reduce((acc, curr)=> acc + curr, 1)
 
 // console.log(result);
-const str = 'playwright'
+// const str = 'playwright'
 
-console.log(Array.isArray(str));
+// console.log(Array.isArray(str));
 
 // if(Array.isArray(num)) {
 
 // } else {
 
 // }
+
+
+// const arr = [10, 20, 30, 10, 50]
+
+// console.log(arr.lastIndexOf(10));
+
+
+
+
+const arr = ['playwright', 'puppeteer', 'testcafe', 'webdriverio', 'QTP']
+
+// arr.keys() // returns a new Array Iterator object that contains the keys for each index in the array
+
+// arr.values() // returns a new Array Iterator object that contains the values for each index in the array
+
+// arr.entries() // returns a new Array Iterator object that contains the key/value pairs for each index in the array
+
+for(const value of arr.entries()) {
+    console.log(value);
+    
+}
+
+
+
+
+
+
+
+
 
 
 
