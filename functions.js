@@ -16,24 +16,24 @@
 // hoisting - function declaration is hoisted but function expression and arrow function are not hoisted
 // printValue()
 
-// function printValue() {
-//     console.log("Hello World");
-// }
+function printValue() {
+    console.log("Hello World");
+}
 
 
 
-// const print = function() {
-//     console.log("playwright");
+const print = function() {
+    console.log("playwright");
     
-// }
+}
 
 
 // print()
 
 
-// const print = () => {
-//     console.log("playwright");
-// }
+const print = () => {
+    console.log("playwright");
+}
 
 
 // print()
@@ -56,11 +56,11 @@
 
 
 
-// function add() {
-//     return 10 + 20
-// }
+function add() {
+    return 10 + 20
+}
 
-// console.log(add());
+console.log(add());
 
 
 
