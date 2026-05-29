@@ -159,7 +159,7 @@
 // console.log(arr.lastIndexOf(10));
 
 
-
+//[0, 'playwright']
 
 const arr = ['playwright', 'puppeteer', 'testcafe', 'webdriverio', 'QTP']
 
